@@ -1,0 +1,6 @@
+num = int(input("Enter the number: "))
+digits = str(abs(num))
+Largest = max(digits)
+smallest = min(digits)
+print("Largest number: ", Largest)
+print("smallest number: ", smallest)
